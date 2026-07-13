@@ -1,0 +1,16 @@
+.programs-container{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.programs-images img{
+       width: 100%;          /* Fill the container */
+  height: 350px;
+    display: block;       /* Remove bottom gap */
+    border-radius: 10px;  /* Rounded corners */
+    object-fit: cover;    /* Crop nicely if a height is set */
+}
+.programs-images{
+    flex: 1;
+}
