@@ -1,5 +1,6 @@
 .programs-container{
-    width:100%;
+    margin:80px auto;
+    width:90%;
     display:flex;
     justify-content:space-between;
     gap:20px;
@@ -12,5 +13,10 @@
     object-fit: cover;    /* Crop nicely if a height is set */
 }
 .programs-images{
-    flex: 1;
+    flex-basis:31%;
+}
+.programs-images img:hover{
+    opacity:0.8;
+    transition:0.3s;
+   
 }
